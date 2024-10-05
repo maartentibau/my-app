@@ -1,6 +1,8 @@
 <main class="main">
-  <ng-template let-value [typedTemplate]="value">
-    {{ value. }}
+  <ng-template let-value let-foo="foo" let-bar="bar" [typedTemplate]="value">
+    {{ value }}
+    {{ foo }}
+    {{ bar }}
   </ng-template>
 </main>
 
